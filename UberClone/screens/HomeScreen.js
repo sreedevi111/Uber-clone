@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Image } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import React from 'react'
 import tw from 'tailwind-react-native-classnames';
+import NavOptions from '../components/NavOptions';
 
 const HomeScreen = () => {
   return (
@@ -22,6 +23,7 @@ const HomeScreen = () => {
             }}
         />
      </View>
+     <NavOptions/>
     </SafeAreaView>
   )
 }
